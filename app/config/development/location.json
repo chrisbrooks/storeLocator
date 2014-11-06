@@ -1,0 +1,64 @@
+{
+    "Stores": [
+        {
+            "Name": "Cricklewood",
+            "Position": {
+                "Longitude": -0.21474,
+                "Latitude": 51.55832
+            },
+            "Address": "Unit 1 Broadway Retail Park,<br/> Cricklewood Lane,<br/> London,<br/> NW2 1ES",
+            "Number": "020 8438 3200",
+            "OpeningHours": "Lorem ipsum dolor sit amet consectetur adipiscing elit Vivamus et tincidunt velit Maecenas sollicitudin consectetur sodales. Aliquam pharetra massa variusposuere lacus finibus faucibus libero. Nulla quis odio tincidunt lacinia tortor sed ornare metus. Aenean sit amet ante magna. Vestibulum risus sapien luctus fermentum libero varius malesuada vehicula magna. Morbi eget sapien enim."
+        },
+        {
+            "Name": "Heybridge Way",
+            "Position": {
+                "Longitude": -0.03014,
+                "Latitude": 51.56922
+            },
+            "Address": "18 Heybridge Way,<br/> London,<br/> E10 7PQ",
+            "Number": "020 8558 4817",
+            "OpeningHours": "Lorem ipsum dolor sit amet consectetur adipiscing elit Vivamus et tincidunt velit Maecenas sollicitudin consectetur sodales. Aliquam pharetra massa variusposuere lacus finibus faucibus libero. Nulla quis odio tincidunt lacinia tortor sed ornare metus. Aenean sit amet ante magna. Vestibulum risus sapien luctus fermentum libero varius malesuada vehicula magna. Morbi eget sapien enim."
+        },
+        {
+            "Name": "Peckham",
+            "Position": {
+                "Longitude": -0.06843,
+                "Latitude": 51.48439
+            },
+            "Address": "524 Old Kent Road,<br/> London,<br/> SE1 5BA",
+            "Number": "020 7252 0657",
+            "OpeningHours": "Lorem ipsum dolor sit amet consectetur adipiscing elit Vivamus et tincidunt velit Maecenas sollicitudin consectetur sodales. Aliquam pharetra massa variusposuere lacus finibus faucibus libero. Nulla quis odio tincidunt lacinia tortor sed ornare metus. Aenean sit amet ante magna. Vestibulum risus sapien luctus fermentum libero varius malesuada vehicula magna. Morbi eget sapien enim."
+        },
+        {
+            "Name": "Smugglers Way",
+            "Position": {
+                "Longitude": -0.06230,
+                "Latitude": 51.58760
+            },
+            "Address": "Smugglers Way,<br/> London,<br/> SW18 1EG",
+            "Number": "020 7252 0657",
+            "OpeningHours": "Lorem ipsum dolor sit amet consectetur adipiscing elit Vivamus et tincidunt velit Maecenas sollicitudin consectetur sodales. Aliquam pharetra massa variusposuere lacus finibus faucibus libero. Nulla quis odio tincidunt lacinia tortor sed ornare metus. Aenean sit amet ante magna. Vestibulum risus sapien luctus fermentum libero varius malesuada vehicula magna. Morbi eget sapien enim."
+        },
+        {
+            "Name": "Acton",
+            "Position": {
+                "Longitude": -0.27656,
+                "Latitude": 51.52543
+            },
+            "Address": "West 5 Centre,<br/>Western Avenue / Alliance Road,<br/>Acton,<br/>London",
+            "Number": "020 8992 4005",
+            "OpeningHours": "Lorem ipsum dolor sit amet consectetur adipiscing elit Vivamus et tincidunt velit Maecenas sollicitudin consectetur sodales. Aliquam pharetra massa variusposuere lacus finibus faucibus libero. Nulla quis odio tincidunt lacinia tortor sed ornare metus. Aenean sit amet ante magna. Vestibulum risus sapien luctus fermentum libero varius malesuada vehicula magna. Morbi eget sapien enim."
+        },
+        {
+            "Name": "New Malden",
+            "Position": {
+                "Longitude": -0.24559,
+                "Latitude": 51.40100
+            },
+            "Address": "Shannon Commercial Centre,<br/>Beverley Way,<br/>New Malden,<br/>Surrey,<br/>KT3 4PT",
+            "Number": "020 8336 3500",
+            "OpeningHours": "Lorem ipsum dolor sit amet consectetur adipiscing elit Vivamus et tincidunt velit Maecenas sollicitudin consectetur sodales. Aliquam pharetra massa variusposuere lacus finibus faucibus libero. Nulla quis odio tincidunt lacinia tortor sed ornare metus. Aenean sit amet ante magna. Vestibulum risus sapien luctus fermentum libero varius malesuada vehicula magna. Morbi eget sapien enim."
+        }
+    ]
+}

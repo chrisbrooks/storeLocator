@@ -1,0 +1,85 @@
+.stores-container{
+	float:left;
+	height:100%;
+	width:0%;
+	margin:0;
+	.stores{
+		margin:0px;
+		padding:0px 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		li{
+			border-top: 2px dotted #e8e8e8;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			&:first-child{
+				border-top: none;
+			}
+			div{
+				overflow:hidden;
+				padding-left:15px;
+				position:relative;
+				.distance{
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					color: #999;
+				}
+				h2{
+					font-size: 16px;
+					line-height: 1;
+					margin-bottom: 6px;
+					font-weight:normal;
+				}
+				p{
+					font-size:13px;
+				}
+			}
+			.number{
+				float: left;
+				background: url("../images/icon.png") no-repeat 0 0;
+				width: 25px;
+				height: 35px;
+				background-size: 25px;
+				text-align: center;
+				line-height: 30px;
+				font-size: 11px;
+				color: #fff;
+			}
+			.more-info-list{
+				border: 1px solid #ddd;
+				padding: 2px 10px;
+				cursor: pointer;
+				font-size: 13px;
+				margin-top: 8px;
+				display: inline-block;
+				color: #999;
+				span{
+					background: url("../images/down-arrow.png") no-repeat center center;
+					height: 18px;
+					width: 21px;
+					float: right;
+					background-size: 10px;
+					-webkit-transition: all 500s;
+					transition: all 500ms;
+					margin-right: -5px;
+					&.open{
+						-webkit-transform: rotate(180deg);
+					}
+				}
+			}
+			.opening-hours{
+				display:none;
+				margin-top:10px;
+			}
+		}
+	}
+}
+
+.activated{
+	.stores-container{
+		width:30%;
+		border:1px solid #e8e8e8;
+	}
+}

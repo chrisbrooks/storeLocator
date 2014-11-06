@@ -1,0 +1,26 @@
+.info-window{
+	.address{
+		margin:5px 0px 0px 0px;
+	}
+	h3{
+		font-weight:normal;
+	}
+}
+
+.labels{
+	color:#fff;
+}
+
+#map_canvas {
+	width:100%;
+	height: 100%;
+	margin-left:2.5%;
+	float:right;
+	background:#eaeaea;
+}
+
+.activated{
+	#map_canvas{
+		width:67%;
+	}
+}
