@@ -13,7 +13,7 @@ function locations() {
 
 	//ajax call for the location data
 	$.ajax({
-		url: '../config/development/location.json',
+		url: 'responses/locations.html',
 		type: 'GET',
 		dataType: 'json',
 		success: function(data) {
