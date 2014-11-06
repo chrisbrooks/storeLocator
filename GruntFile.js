@@ -132,11 +132,32 @@ module.exports = function(grunt) {
 				options: {
 					base: 'app/build/',
 					hostname: '127.0.0.1',
-					keepalive: true,
+					keepalive: false,
+					livereload: true,
 					open: {
-						target: 'http://localhost:8020'
+						target: 'http://localhost:8000'
 					},
-					port: 8020
+					port: 8000,
+					middleware: function(connect, options, middlewares) {
+
+						middlewares.unshift(function (req, res, next) {
+
+							var fs = require('fs');
+							var path = require('path');
+							var support = ['POST', 'PUT', 'DELETE'];
+
+							if (support.indexOf(req.method.toUpperCase()) != -1) {
+								var filepath = path.join(options.base[0], req.url);
+								if (fs.existsSync(filepath) && fs.statSync(filepath).isFile()) {
+									return res.end(fs.readFileSync(filepath));
+								}
+							}
+
+							return next();
+						});
+
+						return middlewares;
+					}
 				}
 			}
 		},
@@ -269,6 +290,7 @@ module.exports = function(grunt) {
 		'copy',
 		'uglify:development',
 		'assemble:development',
+		'connect',
 		'watch'
 	]);
 
@@ -280,6 +302,7 @@ module.exports = function(grunt) {
 		'copy',
 		'uglify:release',
 		'assemble:release'
+
 	]);
 
 };
